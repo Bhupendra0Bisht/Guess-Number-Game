@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(36, 73, 95);
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    flex-direction: column;
+}
+
+.guessfield{
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: flex;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.submitfield{
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+.submitfield:hover{
+    background-color: #45a049;
+}
+
+.results{
+    font-size: 18px;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.loworhigh{
+    color: #ff4444;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.p2{
+    display: inline;
+}
+.p1{
+    display: inline;
+}
+
+.line1{
+    margin-bottom: 8px;
+    padding-top: 15px;
+}
+
+.newGame{
+    margin-top: 130px;
+    
+    display: flex;
+    justify-content: center;
+    color: white;
+    border: 1px solid white;
+    background-color: rgb(8, 64, 128);
+}
+
+.Message{
+    margin-top: 30px;
+    color: #45a049;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    white-space: nowrap;
+    /* now it cnnot move to upward */
+}
