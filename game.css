@@ -82,5 +82,4 @@ body{
     left: 50%;
     transform: translate(-50%);
     white-space: nowrap;
-    /* now it cnnot move to upward */
 }
